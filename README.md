@@ -49,7 +49,7 @@ This project was built to strengthen understanding of:
 
 ## 🔗 Live Demo
 
-https://your-live-demo-link.com
+(https://mdzaidalam-code.github.io/student-attendance-tracker/)
 
 ## 💡 Future Improvements
 
