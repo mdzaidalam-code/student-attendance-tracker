@@ -51,6 +51,10 @@ This project was built to strengthen understanding of:
 
 (https://mdzaidalam-code.github.io/student-attendance-tracker/)
 
+## 📸 Demo
+
+(assets/demo.mp4)
+
 ## 💡 Future Improvements
 
 - Store attendance using Local Storage
