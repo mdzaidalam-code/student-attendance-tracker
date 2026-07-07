@@ -53,9 +53,9 @@ This project was built to strengthen understanding of:
 
 ## 📸 Demo
 
-<video controls width="800">
-  <source src="assets/demo.mp4" type="video/mp4">
-</video>
+## 🎥 Demo Video
+
+[▶️ Watch Demo](assets/demo.mp4)
 
 ## 💡 Future Improvements
 
