@@ -1,16 +1,67 @@
-# React + Vite
+# 🎓 Student Attendance Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive attendance tracking application built with **React.js**, **Vite**, and **Tailwind CSS** to practice React's `useState` hook through a real-world mini project.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 📊 Increase, decrease, and reset student attendance
+- 🚫 Prevents attendance from going below zero
+- 📌 Dynamic attendance status:
+  - No Students
+  - Class Started
+  - Class Full
+- 🌗 Light/Dark theme toggle
+- 👨‍🏫 Live teacher name input and display
+- 📱 Responsive UI
+- ⚛️ Built using React functional components and `useState`
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Vite
+- JavaScript (ES6+)
+- Tailwind CSS
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+├── components/
+│   ├── AttendanceCounter.jsx
+│   ├── ThemeToggle.jsx
+│   └── TeacherInput.jsx
+├── App.jsx
+├── main.jsx
+```
+
+## 🎯 Learning Objectives
+
+This project was built to strengthen understanding of:
+
+- React Components
+- Props
+- `useState`
+- Component Composition
+- State Lifting
+- Conditional Rendering
+- Event Handling
+- Responsive UI Design
+
+## 🔗 Live Demo
+
+https://your-live-demo-link.com
+
+## 💡 Future Improvements
+
+- Store attendance using Local Storage
+- Add multiple classrooms
+- Attendance history
+- Student list management
+- Charts & analytics
+- API integration
+
+## 👨‍💻 Author
+
+**Md Zaid Alam Ansari**
+
+If you found this project helpful, feel free to ⭐ the repository.
