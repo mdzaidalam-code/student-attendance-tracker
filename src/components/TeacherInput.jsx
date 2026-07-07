@@ -15,7 +15,7 @@ function TeacherInput({ theme, teacher, setTeacher }) {
         focus:ring-violet-500 `}
       />
       <p>
-        Current Instructor: {""}
+        Current Instructor:{" "}
         <span className={`text-lg font-bold text-violet-600`}>
           {teacher ? teacher : " No teacher assigned"}
         </span>

@@ -8,7 +8,7 @@ function AttendanceCounter({ theme, count, setCount }) {
     message = "Class is full";
     statusColor = "text-emerald-600";
   } else if (count > 0) {
-    message = "Class strated";
+    message = "Class started";
     statusColor = "text-amber-600";
   }
 
@@ -26,7 +26,7 @@ function AttendanceCounter({ theme, count, setCount }) {
         <span className="font-bold text-xl">{count}</span>
       </h3>
       <p className="mb-4">
-        Staus:{" "}
+        Status:{" "}
         <span className={`text-lg font-bold ${statusColor}`}>{message}</span>
       </p>
       <div className="flex flex-wrap gap-4">

@@ -5,7 +5,7 @@ import TeacherInput from "./components/TeacherInput";
 import AttendanceCounter from "./components/AttendanceCounter";
 
 function App() {
-  const [theme, setTheme] = useState("");
+  const [theme, setTheme] = useState("dark");
   const [count, setCount] = useState(0);
   const [teacher, setTeacher] = useState("");
 
